@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="long_paragraph">
+
+       <p> Dear customer,this is our  cryptocurrency  trading bot
+
+        We are selling  this trading bot that is incoporated into the
+        brokers system
+
+        The bot perfoms trades on your behalf,according to the configurations that you set
+
+        The settings are sent to your email after you purchase the bot and Send the code Astro@gmail.com for verification
+
+        If you are interested in purchasing the bot, follow thepayment instructions instructions below,The payment method is MPESA
+
+        Paybill 12345678
+
+        Account number:YOUR NAME
+
+        Send the code Astro@gmail.com for verification</p>
+
+    </string>
+
+
+    <string name="about">
+        Dear user,welcome to Astro Finance and eduction
+
+        Our aim is to assist you to learn and trade the financial
+        markets
+
+        Below is the Table of contents
+
+        LEARN
+        This page helps you learn about forex from beginner to
+        advanced through Babypips.com website
+
+        TRADE
+        This section helps you to open an account with a broker
+
+        It also contains charting software to assist you in trading the
+        financial markets
+
+        VIEW MARKET NEWS
+        This page assists you in viewing real time finance news and
+        quotes for comodities and currencies in order to make the
+        right trading decisions
+
+        SHOP
+        In this page you find forex trading bots in case you want
+        to purchase a bot
+        The bot is added to the brokers system in order to execute
+        your trades automatically
+
+
+
+
+
+
+
+
+
+
+    </string>
+
+
+
+
+</resources>

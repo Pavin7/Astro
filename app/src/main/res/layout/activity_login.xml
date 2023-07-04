@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/floi"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+
+
+
+    <EditText
+        android:id="@+id/email"
+        android:hint=" enter email"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/white"
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:hint="enter password"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+    </EditText>
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/login"
+        android:text="Login"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#3F51B5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </Button>
+
+
+
+    <TextView
+        android:id="@+id/createacc"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:text="dont have an account? Create your account here">
+
+    </TextView>
+
+
+</LinearLayout>

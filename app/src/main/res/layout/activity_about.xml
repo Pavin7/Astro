@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/beauty"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+
+    <TextView
+        android:text="Dear user,welcome to Astro Forex Education and trading"
+        android:layout_width="match_parent"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
+        android:layout_marginStart="4dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+    <TextView
+        android:text="Our aim is to help you understand more about financial markets,We've combined the best resources to help you become a professional trader"
+        android:layout_width="match_parent"
+        android:paddingBottom="10dp"
+        android:layout_marginStart="4dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:text="Below are explanations that make it easier for you to navigate the app"
+        android:layout_width="wrap_content"
+        android:paddingBottom="10dp"
+        android:layout_marginStart="4dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:text="Learn forex : This website called babypips.com takes you from beginner to advanced in forex trading,You will learn everything you need to know about forex trading"
+        android:layout_width="match_parent"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:layout_marginStart="4dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:text="Trade : After learning how to trade,you will use this page trade forex through tradingview,you will use charting software and also open a trading account with a broker"
+        android:layout_width="match_parent"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:layout_marginStart="4dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:text="View Market News : Through this page you will view market news on investing.com to assist you  in making the right trading decisions"
+        android:layout_width="match_parent"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:layout_marginStart="4dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:text="Shop : Finally,haha if you wish to purchase trading software that can be incoporated into the brokers system to execute your trades,then this is the right page for you"
+        android:layout_width="match_parent"
+        android:paddingBottom="10dp"
+        android:layout_marginStart="4dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content">
+
+
+
+    </TextView>
+
+
+</LinearLayout>
