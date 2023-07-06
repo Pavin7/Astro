@@ -4,16 +4,18 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.TextView
 import androidx.cardview.widget.CardView
+import org.w3c.dom.Text
 
 class AdenPerez : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        lateinit var cardy1: CardView
-        lateinit var cardy2: CardView
-        lateinit var cardy3: CardView
-        lateinit var cardy4: CardView
-        lateinit var cardy5: CardView
+        lateinit var cardy1: TextView
+        lateinit var cardy2: TextView
+        lateinit var cardy3: TextView
+        lateinit var cardy4: TextView
+        lateinit var cardy5: TextView
 
 
 
@@ -21,11 +23,11 @@ class AdenPerez : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_aden_perez)
 
-        cardy1 = findViewById(R.id.cardcopy1)
-        cardy2 = findViewById(R.id.cardcopy2)
-        cardy3 = findViewById(R.id.cardcopy3)
-        cardy4 = findViewById(R.id.cardcopy4)
-        cardy5 = findViewById(R.id.cardcopy5)
+        cardy1 = findViewById(R.id.textcard1)
+        cardy2 = findViewById(R.id.textcard2)
+        cardy3 = findViewById(R.id.textcard3)
+        cardy4 = findViewById(R.id.textcard4)
+        cardy5 = findViewById(R.id.textcard5)
 
         //call
         cardy1.setOnClickListener {
