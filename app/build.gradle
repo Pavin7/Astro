@@ -2,11 +2,12 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'com.google.gms.google-services'
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
 }
 
 android {
     namespace 'com.example.astro'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.astro"
@@ -46,6 +47,8 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui-ktx:2.6.0'
     implementation 'com.google.firebase:firebase-auth:21.1.0'
     implementation 'com.google.firebase:firebase-database-ktx:20.2.2'
+    implementation 'com.google.android.gms:play-services-maps:18.0.2'
+    implementation 'androidx.core:core-ktx:+'
     /*implementation 'androidx.core:core-ktx:+'
     implementation 'androidx.core:core-ktx:+'
     implementation 'androidx.core:core-ktx:+'*/
@@ -53,7 +56,9 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
-    implementation("androidx.core:core-ktx:1.9.0")
+    implementation("androidx.core:core-ktx:1.10.1")
+
+    
 
 
     // Import the BoM for the Firebase platform
@@ -62,6 +67,15 @@ dependencies {
     // Add the dependency for the Firebase Authentication library
     // When using the BoM, you don't specify versions in Firebase library dependencies
     implementation("com.google.firebase:firebase-auth-ktx")
+
+    //firebase
+
+    //implementation 'com.google.firebase:firebase-core:16.0.1'
+   // implementation 'com.google.firebase:firebase-database:16.0.1'
+
+    //lottie
+    def lottieVersion = "3.4.0"
+    implementation "com.airbnb.android:lottie:$lottieVersion"
 
 }
 

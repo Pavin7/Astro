@@ -11,7 +11,7 @@ class BotActivity : AppCompatActivity() {
 
     lateinit var gitbot:Button
     lateinit var pay:Button
-    lateinit var hmail:Button
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,14 +31,7 @@ class BotActivity : AppCompatActivity() {
             simToolKitLaunchIntent?.let{startActivity(it)}
         }
 
-        hmail = findViewById(R.id.emailbutton)
 
-        hmail.setOnClickListener {
-            val emailintent = Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto","pavowere6@gmail.com",null))
-            emailintent.putExtra(Intent.EXTRA_SUBJECT, "PAYMENT VERIFICATION")
-            emailintent.putExtra(Intent.EXTRA_TEXT,"DEAR SIR")
-            startActivity(Intent.createChooser(emailintent,"send email..."))
-        }
 
 
 

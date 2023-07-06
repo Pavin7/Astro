@@ -44,7 +44,7 @@ class DashboardActivity : AppCompatActivity() {
         }
 
         market.setOnClickListener {
-            val intent = Intent(this,InvestingComActivity::class.java)
+            val intent = Intent(this,CopyTradingActivity::class.java)
             startActivity(intent)
         }
 

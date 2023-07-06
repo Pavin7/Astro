@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/floi"
     tools:context=".DashboardActivity">
 
     <TextView
@@ -14,7 +13,7 @@
         android:layout_marginLeft="50dp"
         android:layout_marginTop="10dp"
         android:text="WELCOME TO ASTRO"
-        android:textColor="#E91E63"
+        android:textColor="@color/black"
         android:textSize="30dp"
         android:textStyle="bold">
 
@@ -35,6 +34,7 @@
         android:layout_marginStart="0dp">
         <!--MARGINSTART NOT FOUND-->
         <!--first card-->
+
         <androidx.cardview.widget.CardView
             android:id="@+id/cardHome1"
             android:layout_width="wrap_content"
@@ -72,6 +72,11 @@
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
+
+
+
+
+
 
         <!--second card-->
         <androidx.cardview.widget.CardView
@@ -181,7 +186,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="View market news"
+                    android:text="Copy Trading"
                     android:textColor="@color/black"
                     android:textSize="20sp">
 
@@ -277,3 +282,8 @@
 
 
 </RelativeLayout>
+
+
+
+
+

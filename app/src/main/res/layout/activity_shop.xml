@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/leafy"
     android:layout_height="match_parent"
     tools:context=".ShopActivity">
 
@@ -50,11 +49,20 @@
 
                 </ImageView>
                 <TextView
+                    android:textStyle="bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="cryptocurrency bot"
                     android:textColor="@color/black"
                     android:textSize="20sp">
+
+                </TextView>
+
+                <TextView
+                    android:text="KSH 1000"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
 
                 </TextView>
 
@@ -89,11 +97,20 @@
 
                 </ImageView>
                 <TextView
+                    android:textStyle="bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="forex trading  bot"
                     android:textColor="@color/black"
                     android:textSize="20sp">
+
+                </TextView>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="KSH 1500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
 
                 </TextView>
 
