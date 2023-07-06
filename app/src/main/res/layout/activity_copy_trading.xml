@@ -42,7 +42,7 @@
                         android:layout_marginStart="16dp"
                         android:text="Aden Perez"
                         android:textColor="#F44336"
-                        android:textSize="40sp" />
+                        android:textSize="30sp" />
 
 
                 </LinearLayout>
@@ -79,7 +79,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:text="Patel Samad"
-                        android:textSize="40sp" />
+                        android:textSize="30sp" />
 
 
 
@@ -115,7 +115,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:text="Sofia Ramos"
-                        android:textSize="40sp" />
+                        android:textSize="30sp" />
 
 
 
@@ -153,7 +153,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:text="Ethan Dennis"
-                        android:textSize="40sp" />
+                        android:textSize="30sp" />
 
 
 
@@ -190,7 +190,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:text="Naomi Keller"
-                        android:textSize="40sp" />
+                        android:textSize="30sp" />
 
 
 

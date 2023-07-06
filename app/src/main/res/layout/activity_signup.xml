@@ -3,19 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
-    android:background="@drawable/water"
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
 
 
-    <ImageView
-        android:src="@drawable/homepic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"></ImageView>
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/login" />
 
 
 
@@ -28,7 +29,7 @@
         android:id="@+id/email1"
         android:hint=" enter email"
         android:layout_marginTop="30dp"
-        android:textColorHint="@color/white"
+        android:textColorHint="@color/black"
         android:inputType="textEmailAddress"
         android:autofillHints="emailAddress"
         android:layout_width="match_parent"
@@ -42,7 +43,7 @@
         android:id="@+id/password1"
         android:hint="enter password"
         android:layout_marginTop="30dp"
-        android:textColorHint="@color/white"
+        android:textColorHint="@color/black"
         android:inputType="textPassword"
         android:autofillHints="password"
         android:layout_width="match_parent"
@@ -56,7 +57,7 @@
         android:id="@+id/confirmpassword"
         android:hint="confirm password"
         android:layout_marginTop="30dp"
-        android:textColorHint="@color/white"
+        android:textColorHint="@color/black"
         android:inputType="textPassword"
         android:autofillHints="password"
         android:layout_width="match_parent"
@@ -86,10 +87,10 @@
 
     <TextView
         android:id="@+id/createacc1"
-        android:textColor="@color/white"
+        android:textColor="#2196F3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
+        android:layout_marginLeft="90dp"
         android:layout_marginTop="20dp"
         android:text="Already have an account? Login">
 

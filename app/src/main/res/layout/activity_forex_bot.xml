@@ -58,7 +58,7 @@ android:layout_height="wrap_content">
 </TextView>
 
 <TextView
-android:text="If you are interested in purchasing the bot, follow thepayment instructions instructions below,The payment method is MPESA"
+android:text="If you are interested in purchasing the bot, follow the payment instructions instructions below,The payment method is MPESA"
 android:layout_width="match_parent"
 android:layout_marginStart="3dp"
 android:paddingBottom="18dp"
