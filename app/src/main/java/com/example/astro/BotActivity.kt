@@ -21,7 +21,7 @@ class BotActivity : AppCompatActivity() {
 
         gitbot.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW)
-            intent.data = Uri.parse("https://github.com/Pavin7/BOT1.git")
+            intent.data = Uri.parse("https://github.com/Pavin7/bot2.git")
             startActivity(intent)
         }
 
